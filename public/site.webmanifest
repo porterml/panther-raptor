@@ -1,0 +1,28 @@
+{
+	"name": "Salt Flats Wellness - Mental Health Services",
+	"short_name": "Salt Flats Wellness",
+	"description": "Compassionate, patient-centered mental health care in Tooele, Utah",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff",
+	"icons": [
+		{
+			"src": "/assets/favicon.ico",
+			"sizes": "16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "/assets/favicon.ico",
+			"sizes": "32x32",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "/assets/favicon.ico",
+			"sizes": "180x180",
+			"type": "image/x-icon"
+		}
+	],
+	"categories": ["health", "medical", "wellness"],
+	"lang": "en-US"
+}

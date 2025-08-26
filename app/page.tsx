@@ -1,91 +1,187 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Mental Health Services | Psychiatric Care Tooele, UT",
+	description:
+		"Professional mental health services in Tooele, Utah. Psychiatric medication management, individual therapy, family counseling, and innovative treatments for anxiety, depression, PTSD, and more.",
+	keywords: [
+		"mental health Tooele",
+		"psychiatric care Utah",
+		"therapy services",
+		"medication management",
+		"anxiety treatment",
+		"depression therapy",
+		"PTSD treatment",
+		"family counseling",
+		"individual therapy",
+		"psychiatric nurse practitioner",
+	],
+	openGraph: {
+		title: "Mental Health Services | Psychiatric Care Tooele, UT",
+		description:
+			"Professional mental health services in Tooele, Utah. Psychiatric medication management, individual therapy, family counseling, and innovative treatments.",
+		url: "https://saltflatswellness.com",
+		images: [
+			{
+				url: "/assets/img/intro.jpg",
+				width: 1200,
+				height: 630,
+				alt: "Salt Flats Wellness Mental Health Services",
+			},
+		],
+	},
+};
 
 export default function Home() {
+	const structuredData = {
+		"@context": "https://schema.org",
+		"@type": "MedicalBusiness",
+		name: "Salt Flats Wellness",
+		description:
+			"Compassionate, patient-centered mental health care providing psychiatric medication management, therapy, and innovative treatments.",
+		url: "https://saltflatswellness.com",
+		telephone: "+1-435-264-7926",
+		email: "saltflatswellness@gmail.com",
+		address: {
+			"@type": "PostalAddress",
+			streetAddress: "40A S Main St, Suite 3",
+			addressLocality: "Tooele",
+			addressRegion: "UT",
+			postalCode: "84074",
+			addressCountry: "US",
+		},
+		geo: {
+			"@type": "GeoCoordinates",
+			latitude: "40.5302",
+			longitude: "-112.2983",
+		},
+		openingHours: "Mo-Fr 09:00-17:00",
+		medicalSpecialty: "Psychiatry",
+		availableService: [
+			{
+				"@type": "MedicalTherapy",
+				name: "Psychiatric Medication Management",
+				description:
+					"Comprehensive medication management for psychiatric conditions",
+			},
+			{
+				"@type": "MedicalTherapy",
+				name: "Individual Therapy",
+				description:
+					"One-on-one counseling sessions for mental health concerns",
+			},
+			{
+				"@type": "MedicalTherapy",
+				name: "Family Counseling",
+				description:
+					"Family therapy sessions to improve relationships and communication",
+			},
+		],
+		healthcareProvider: {
+			"@type": "Person",
+			name: "Renee Loveless",
+			jobTitle: "Psychiatric Nurse Practitioner",
+			credential: "APRN, PMHNP-BC",
+			alumniOf: "Maryville University",
+		},
+	};
+
 	return (
 		<>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+			/>
+
 			<Header />
 
-			<section className="page-section clearfix">
-				<div className="container">
-					<div className="intro">
-						<Image
-							className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-							src="/assets/img/intro.jpg"
-							alt="Salt Flats Wellness Introduction"
-							width={600}
-							height={400}
-							priority
-						/>
-						<div className="intro-text left-0 text-center bg-faded p-4 rounded">
-							<h2 className="section-heading mb-4">
-								<span className="section-heading-upper">Welcome to</span>
-								<span
-									className="section-heading-lower"
-									style={{ textTransform: "capitalize" }}
-								>
-									Salt Flats Wellness
-								</span>
-							</h2>
-							<p className="mb-3">
-								We are dedicated to providing compassionate, patient-centered
-								mental health care, empowering you to achieve lasting
-								well-being.
-							</p>
-							<p>Your journey to a healthier, balanced life begins here.</p>
-							<div className="intro-button mx-auto">
-								<a
-									className="btn btn-primary btn-xl"
-									href="https://saltflatswellness.intakeq.com/booking"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Set an Appointment
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section className="page-section cta">
-				<div className="container">
-					<div className="row">
-						<div className="col-xl-9 mx-auto">
-							<div className="cta-inner bg-faded text-center rounded">
-								<h2 className="section-heading mb-4">
-									<span className="section-heading-upper">Our Promise</span>
-									<span className="section-heading-lower">To You</span>
-								</h2>
-								<p className="mb-0">
+			<main>
+				<section className="page-section clearfix">
+					<div className="container">
+						<div className="intro">
+							<Image
+								className="intro-img img-fluid mb-3 mb-lg-0 rounded"
+								src="/assets/img/intro.jpg"
+								alt="Salt Flats Wellness Introduction - Mental Health Services in Tooele, Utah"
+								width={600}
+								height={400}
+								priority
+							/>
+							<div className="intro-text left-0 text-center bg-faded p-4 rounded">
+								<h1 className="section-heading mb-4">
+									<span className="section-heading-upper">Welcome to</span>
+									<span
+										className="section-heading-lower"
+										style={{ textTransform: "capitalize" }}
+									>
+										Salt Flats Wellness
+									</span>
+								</h1>
+								<p className="mb-3">
 									We are dedicated to providing compassionate, patient-centered
 									mental health care, empowering you to achieve lasting
-									well-being. Our mission is threefold:
+									well-being.
 								</p>
-								<ol>
-									<li>
-										Support and Healing – We strive to create a safe, welcoming
-										environment where every individual feels understood and
-										supported.
-									</li>
-									<li>
-										Holistic, Evidence-Based Care – Through therapy, medication
-										management, and innovative treatments, we offer a
-										comprehensive approach tailored to your unique needs.
-									</li>
-									<li>
-										Accessible Mental Wellness – We are committed to expanding
-										access to quality mental health care in our community,
-										promoting wellness and resilience for all.
-									</li>
-								</ol>
 								<p>Your journey to a healthier, balanced life begins here.</p>
+								<div className="intro-button mx-auto">
+									<a
+										className="btn btn-primary btn-xl"
+										href="https://saltflatswellness.intakeq.com/booking"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="Book an appointment with Salt Flats Wellness"
+									>
+										Set an Appointment
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+
+				<section className="page-section cta">
+					<div className="container">
+						<div className="row">
+							<div className="col-xl-9 mx-auto">
+								<div className="cta-inner bg-faded text-center rounded">
+									<h2 className="section-heading mb-4">
+										<span className="section-heading-upper">Our Promise</span>
+										<span className="section-heading-lower">To You</span>
+									</h2>
+									<p className="mb-0">
+										We are dedicated to providing compassionate,
+										patient-centered mental health care, empowering you to
+										achieve lasting well-being. Our mission is threefold:
+									</p>
+									<ol>
+										<li>
+											<strong>Support and Healing</strong> – We strive to create
+											a safe, welcoming environment where every individual feels
+											understood and supported.
+										</li>
+										<li>
+											<strong>Holistic, Evidence-Based Care</strong> – Through
+											therapy, medication management, and innovative treatments,
+											we offer a comprehensive approach tailored to your unique
+											needs.
+										</li>
+										<li>
+											<strong>Accessible Mental Wellness</strong> – We are
+											committed to expanding access to quality mental health
+											care in our community, promoting wellness and resilience
+											for all.
+										</li>
+									</ol>
+									<p>Your journey to a healthier, balanced life begins here.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
 
 			<Footer />
 		</>

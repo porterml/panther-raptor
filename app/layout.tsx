@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
-		default: "Salt Flats Wellness - Mental Health Services | Tooele, UT",
-		template: "%s | Salt Flats Wellness",
+		default: "Salt Flats Psychiatry - Mental Health Services | Tooele, UT",
+		template: "%s | Salt Flats Psychiatry",
 	},
 	description:
 		"Compassionate, patient-centered mental health care in Tooele, Utah. Psychiatric medication management, therapy, and innovative treatments for lasting wellness.",
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
 		"individual therapy",
 	],
 	authors: [{ name: "Renee Loveless APRN, PMHNP-BC" }],
-	creator: "Salt Flats Wellness",
-	publisher: "Salt Flats Wellness",
+	creator: "Salt Flats Psychiatry",
+	publisher: "Salt Flats Psychiatry",
 	formatDetection: {
 		email: false,
 		address: false,
@@ -53,22 +53,22 @@ export const metadata: Metadata = {
 		type: "website",
 		locale: "en_US",
 		url: "https://saltflatswellness.com",
-		title: "Salt Flats Wellness - Mental Health Services | Tooele, UT",
+		title: "Salt Flats Psychiatry - Mental Health Services | Tooele, UT",
 		description:
 			"Compassionate, patient-centered mental health care in Tooele, Utah. Psychiatric medication management, therapy, and innovative treatments for lasting wellness.",
-		siteName: "Salt Flats Wellness",
+		siteName: "Salt Flats Psychiatry",
 		images: [
 			{
 				url: "/assets/img/intro.jpg",
 				width: 1200,
 				height: 630,
-				alt: "Salt Flats Wellness - Mental Health Services",
+				alt: "Salt Flats Psychiatry - Mental Health Services",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Salt Flats Wellness - Mental Health Services | Tooele, UT",
+		title: "Salt Flats Psychiatry - Mental Health Services | Tooele, UT",
 		description:
 			"Compassionate, patient-centered mental health care in Tooele, Utah.",
 		images: ["/assets/img/intro.jpg"],

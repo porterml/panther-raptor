@@ -1,4 +1,4 @@
-# Salt Flats Wellness Website Improvements Tracker
+# Salt Flats Psychiatry Website Improvements Tracker
 
 ## 📋 Progress Legend
 

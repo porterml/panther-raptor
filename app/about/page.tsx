@@ -50,7 +50,7 @@ export default function About() {
 			"Dedicated Psychiatric Nurse Practitioner serving mental health needs with a passion for providing compassionate, patient-centered care.",
 		worksFor: {
 			"@type": "MedicalBusiness",
-			name: "Salt Flats Wellness",
+			name: "Salt Flats Psychiatry",
 			address: {
 				"@type": "PostalAddress",
 				streetAddress: "40A S Main St, Suite 3",

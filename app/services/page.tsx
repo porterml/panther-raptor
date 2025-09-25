@@ -7,7 +7,8 @@ import products03 from "../../assets/img/products-03.jpg";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Mental Health Services & Treatments | Salt Flats Wellness Tooele, UT",
+	title:
+		"Mental Health Services & Treatments | Salt Flats Psychiatry Tooele, UT",
 	description:
 		"Comprehensive mental health services including psychiatric medication management, individual therapy, family counseling, CBT, DBT, and innovative weight loss treatments in Tooele, Utah.",
 	keywords: [
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 	],
 	openGraph: {
 		title:
-			"Mental Health Services & Treatments | Salt Flats Wellness Tooele, UT",
+			"Mental Health Services & Treatments | Salt Flats Psychiatry Tooele, UT",
 		description:
 			"Comprehensive mental health services including psychiatric medication management, therapy, and innovative treatments in Tooele, Utah.",
 		url: "https://saltflatswellness.com/services",
@@ -45,7 +46,7 @@ export default function Services() {
 	const servicesStructuredData = {
 		"@context": "https://schema.org",
 		"@type": "MedicalBusiness",
-		name: "Salt Flats Wellness",
+		name: "Salt Flats Psychiatry",
 		description: "Comprehensive mental health services and treatments",
 		url: "https://saltflatswellness.com/services",
 		medicalSpecialty: "Psychiatry",
@@ -138,7 +139,7 @@ export default function Services() {
 							<Image
 								className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
 								src={products01}
-								alt="Psychiatric Medication Management Services - Salt Flats Wellness"
+								alt="Psychiatric Medication Management Services - Salt Flats Psychiatry"
 								width={600}
 								height={400}
 							/>
@@ -192,7 +193,7 @@ export default function Services() {
 							<Image
 								className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
 								src={products02}
-								alt="Individual, Couples, and Family Counseling Services - Salt Flats Wellness"
+								alt="Individual, Couples, and Family Counseling Services - Salt Flats Psychiatry"
 								width={600}
 								height={400}
 							/>
@@ -248,7 +249,7 @@ export default function Services() {
 							<Image
 								className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
 								src={products03}
-								alt="Innovative Weight Loss and Wellness Treatments - Salt Flats Wellness"
+								alt="Innovative Weight Loss and Wellness Treatments - Salt Flats Psychiatry"
 								width={600}
 								height={400}
 							/>

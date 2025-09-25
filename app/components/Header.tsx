@@ -10,10 +10,7 @@ export default function Header() {
 		<>
 			<header>
 				<h1 className="site-heading text-center text-faded d-none d-lg-block">
-					<span className="site-heading-upper text-primary mb-3">
-						Mental Health Services
-					</span>
-					<span className="site-heading-lower">Salt Flats Wellness Clinic</span>
+					<span className="site-heading-lower">Salt Flats Psychiatry</span>
 				</h1>
 			</header>
 
@@ -23,7 +20,7 @@ export default function Header() {
 						className="navbar-brand text-uppercase fw-bold d-lg-none"
 						href="/"
 					>
-						Salt Flats Wellness
+						Salt Flats Psychiatry
 					</Link>
 
 					<button

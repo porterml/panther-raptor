@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Building Salt Flats Wellness website..."
+echo "🚀 Building Salt Flats Psychiatry website..."
 
 # Install dependencies
 npm install

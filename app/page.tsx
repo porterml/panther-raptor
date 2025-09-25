@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 				url: "/assets/img/intro.jpg",
 				width: 1200,
 				height: 630,
-				alt: "Salt Flats Wellness Mental Health Services",
+				alt: "Salt Flats Psychiatry Mental Health Services",
 			},
 		],
 	},
@@ -39,7 +39,7 @@ export default function Home() {
 	const structuredData = {
 		"@context": "https://schema.org",
 		"@type": "MedicalBusiness",
-		name: "Salt Flats Wellness",
+		name: "Salt Flats Psychiatry",
 		description:
 			"Compassionate, patient-centered mental health care providing psychiatric medication management, therapy, and innovative treatments.",
 		url: "https://saltflatswellness.com",
@@ -105,7 +105,7 @@ export default function Home() {
 							<Image
 								className="intro-img img-fluid mb-3 mb-lg-0 rounded"
 								src="/assets/img/intro.jpg"
-								alt="Salt Flats Wellness Introduction - Mental Health Services in Tooele, Utah"
+								alt="Salt Flats Psychiatry Introduction - Mental Health Services in Tooele, Utah"
 								width={600}
 								height={400}
 								priority
@@ -117,7 +117,7 @@ export default function Home() {
 										className="section-heading-lower"
 										style={{ textTransform: "capitalize" }}
 									>
-										Salt Flats Wellness
+										Salt Flats Psychiatry
 									</span>
 								</h1>
 								<p className="mb-3">
@@ -132,7 +132,7 @@ export default function Home() {
 										href="https://saltflatswellness.intakeq.com/booking"
 										target="_blank"
 										rel="noopener noreferrer"
-										aria-label="Book an appointment with Salt Flats Wellness"
+										aria-label="Book an appointment with Salt Flats Psychiatry"
 									>
 										Set an Appointment
 									</a>

@@ -53,6 +53,6 @@
     <line x1="0" y1="95" x2="120" y2="95" stroke="#d3d3d3" stroke-width="0.5" opacity="0.5"/>
   </g>
   
-  <!-- Text: Salt Flats Wellness -->
-  <text x="60" y="110" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#2f170f">Salt Flats Wellness</text>
+  <!-- Text: Salt Flats Psychiatry -->
+  <text x="60" y="110" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#2f170f">Salt Flats Psychiatry</text>
 </svg>

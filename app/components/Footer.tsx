@@ -10,11 +10,11 @@ export default function Footer() {
 					<div className="footer-section footer-logo">
 						<Image
 							src="/assets/logo.svg"
-							alt="Salt Flats Wellness Logo"
+							alt="Salt Flats Psychiatry Logo"
 							width={100}
 							height={100}
 						/>
-						<h3>Salt Flats Wellness</h3>
+						<h3>Salt Flats Psychiatry</h3>
 						<p>Mental Health Services</p>
 					</div>
 
@@ -70,15 +70,18 @@ export default function Footer() {
 							<a href="#" title="Facebook">
 								<i className="fab fa-facebook-f"></i>
 							</a>
-							<a href="#" title="Instagram">
+							<a
+								href="https://www.instagram.com/saltflatspsychiatry/"
+								title="Instagram"
+							>
 								<i className="fab fa-instagram"></i>
 							</a>
-							<a href="#" title="LinkedIn">
+							{/* <a href="#" title="LinkedIn">
 								<i className="fab fa-linkedin-in"></i>
 							</a>
 							<a href="#" title="Twitter">
 								<i className="fab fa-twitter"></i>
-							</a>
+							</a> */}
 						</div>
 						<div className="footer-buttons">
 							<a href="#" className="footer-btn">
@@ -98,7 +101,7 @@ export default function Footer() {
 
 				{/* Copyright */}
 				<div className="footer-copyright">
-					<p>&copy; 2025 by Salt Flats Wellness. All rights reserved.</p>
+					<p>&copy; 2025 by Salt Flats Psychiatry. All rights reserved.</p>
 				</div>
 			</div>
 		</footer>

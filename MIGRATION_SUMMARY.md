@@ -2,7 +2,7 @@
 
 ## What Was Converted
 
-Your Salt Flats Wellness website has been successfully converted from a static HTML site to a modern Next.js 14 application with the following improvements:
+Your Salt Flats Psychiatry website has been successfully converted from a static HTML site to a modern Next.js 14 application with the following improvements:
 
 ### Original Files Converted
 

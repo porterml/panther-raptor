@@ -1,6 +1,6 @@
-# Salt Flats Wellness - Next.js Website
+# Salt Flats Psychiatry - Next.js Website
 
-A modern, responsive website for Salt Flats Wellness mental health clinic, built with Next.js 14, React 18, and TypeScript.
+A modern, responsive website for Salt Flats Psychiatry mental health clinic, built with Next.js 14, React 18, and TypeScript.
 
 ## Features
 

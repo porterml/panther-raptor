@@ -3,11 +3,11 @@ import Footer from "../components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Contact Salt Flats Wellness | Mental Health Services Tooele, UT",
+	title: "Contact Salt Flats Psychiatry | Mental Health Services Tooele, UT",
 	description:
-		"Contact Salt Flats Wellness for mental health services in Tooele, Utah. Located at 40A S Main St, Suite 3. Call (435) 264-7926 or book online. Office hours: Mon-Fri 9AM-5PM.",
+		"Contact Salt Flats Psychiatry for mental health services in Tooele, Utah. Located at 40A S Main St, Suite 3. Call (435) 264-7926 or book online. Office hours: Mon-Fri 9AM-5PM.",
 	keywords: [
-		"contact Salt Flats Wellness",
+		"contact Salt Flats Psychiatry",
 		"mental health Tooele Utah",
 		"psychiatric care contact",
 		"therapy appointment Tooele",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
 		"mental health clinic Tooele",
 	],
 	openGraph: {
-		title: "Contact Salt Flats Wellness | Mental Health Services Tooele, UT",
+		title: "Contact Salt Flats Psychiatry | Mental Health Services Tooele, UT",
 		description:
-			"Contact Salt Flats Wellness for mental health services in Tooele, Utah. Located at 40A S Main St, Suite 3. Call (435) 264-7926 or book online.",
+			"Contact Salt Flats Psychiatry for mental health services in Tooele, Utah. Located at 40A S Main St, Suite 3. Call (435) 264-7926 or book online.",
 		url: "https://saltflatswellness.com/contact",
 	},
 };
@@ -28,7 +28,7 @@ export default function Contact() {
 	const contactStructuredData = {
 		"@context": "https://schema.org",
 		"@type": "MedicalBusiness",
-		name: "Salt Flats Wellness",
+		name: "Salt Flats Psychiatry",
 		description: "Mental health services and psychiatric care in Tooele, Utah",
 		url: "https://saltflatswellness.com",
 		telephone: "+1-435-264-7926",
@@ -117,7 +117,7 @@ export default function Contact() {
 															href="https://maps.google.com/?q=40A+S+Main+St,+Suite+3,+Tooele,+UT+84074"
 															target="_blank"
 															rel="noopener noreferrer"
-															aria-label="View Salt Flats Wellness location on Google Maps"
+															aria-label="View Salt Flats Psychiatry location on Google Maps"
 														>
 															40A S Main St, Suite 3<br />
 															Tooele, UT 84074
@@ -127,7 +127,7 @@ export default function Contact() {
 														<strong>Phone:</strong>{" "}
 														<a
 															href="tel:+1-435-264-7926"
-															aria-label="Call Salt Flats Wellness at (435) 264-7926"
+															aria-label="Call Salt Flats Psychiatry at (435) 264-7926"
 														>
 															(435) 264-7926
 														</a>
@@ -136,7 +136,7 @@ export default function Contact() {
 														<strong>Email:</strong>{" "}
 														<a
 															href="mailto:saltflatswellness@gmail.com"
-															aria-label="Email Salt Flats Wellness at saltflatswellness@gmail.com"
+															aria-label="Email Salt Flats Psychiatry at saltflatswellness@gmail.com"
 														>
 															saltflatswellness@gmail.com
 														</a>
@@ -155,7 +155,7 @@ export default function Contact() {
 													href="https://saltflatswellness.intakeq.com/booking"
 													target="_blank"
 													rel="noopener noreferrer"
-													aria-label="Book an appointment with Salt Flats Wellness online"
+													aria-label="Book an appointment with Salt Flats Psychiatry online"
 												>
 													Book Appointment
 												</a>

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
 	title: "Contact Salt Flats Psychiatry | Mental Health Services Tooele, UT",
 	description:
-		"Contact Salt Flats Psychiatry for mental health services in Tooele, Utah. Located at 40A S Main St, Suite 3. Call (435) 264-7926 or book online. Office hours: Mon-Fri 9AM-5PM.",
+		"Contact Salt Flats Psychiatry for mental health services in Tooele, Utah. Located at 2321 N 400 E, Suite 200. Call (435) 264-7926 or book online. Office hours: Mon-Fri 9AM-5PM.",
 	keywords: [
 		"contact Salt Flats Psychiatry",
 		"mental health Tooele Utah",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Contact Salt Flats Psychiatry | Mental Health Services Tooele, UT",
 		description:
-			"Contact Salt Flats Psychiatry for mental health services in Tooele, Utah. Located at 40A S Main St, Suite 3. Call (435) 264-7926 or book online.",
+			"Contact Salt Flats Psychiatry for mental health services in Tooele, Utah. Located at 2321 N 400 E, Suite 200. Call (435) 264-7926 or book online.",
 		url: "https://saltflatswellness.com/contact",
 	},
 };
@@ -32,10 +32,10 @@ export default function Contact() {
 		description: "Mental health services and psychiatric care in Tooele, Utah",
 		url: "https://saltflatswellness.com",
 		telephone: "+1-435-264-7926",
-		email: "saltflatswellness@gmail.com",
+		email: "hello@saltflatspsychiatry.com",
 		address: {
 			"@type": "PostalAddress",
-			streetAddress: "40A S Main St, Suite 3",
+			streetAddress: "2321 N 400 E, Suite 200",
 			addressLocality: "Tooele",
 			addressRegion: "UT",
 			postalCode: "84074",
@@ -94,8 +94,7 @@ export default function Contact() {
 							<div className="col-xl-9 mx-auto">
 								<div className="cta-inner bg-faded rounded">
 									<h1 className="section-heading mb-4">
-										<span className="section-heading-upper">Contact</span>
-										<span className="section-heading-lower">Us</span>
+										<span className="section-heading-lower">Contact Us</span>
 									</h1>
 
 									<div className="row">
@@ -114,12 +113,13 @@ export default function Contact() {
 														<strong>Address:</strong>
 														<br />
 														<a
-															href="https://maps.google.com/?q=40A+S+Main+St,+Suite+3,+Tooele,+UT+84074"
+															href="https://maps.google.com/?q=2321+N+400+E,+Suite+200,+Tooele,+UT+84074"
 															target="_blank"
 															rel="noopener noreferrer"
 															aria-label="View Salt Flats Psychiatry location on Google Maps"
 														>
-															40A S Main St, Suite 3<br />
+															2321 N 400 E, Suite 200
+															<br />
 															Tooele, UT 84074
 														</a>
 													</p>
@@ -135,10 +135,10 @@ export default function Contact() {
 													<p>
 														<strong>Email:</strong>{" "}
 														<a
-															href="mailto:saltflatswellness@gmail.com"
-															aria-label="Email Salt Flats Psychiatry at saltflatswellness@gmail.com"
+															href="mailto:hello@saltflatspsychiatry.com"
+															aria-label="Email Salt Flats Psychiatry at hello@saltflatspsychiatry.com"
 														>
-															saltflatswellness@gmail.com
+															hello@saltflatspsychiatry.com
 														</a>
 													</p>
 												</address>
@@ -170,12 +170,9 @@ export default function Contact() {
 														<strong>Monday - Friday:</strong>
 													</dt>
 													<dd>9:00 AM - 5:00 PM</dd>
+
 													<dt>
-														<strong>Saturday:</strong>
-													</dt>
-													<dd>By appointment only</dd>
-													<dt>
-														<strong>Sunday:</strong>
+														<strong>Saturday & Sunday:</strong>
 													</dt>
 													<dd>Closed</dd>
 												</dl>

@@ -24,14 +24,15 @@ export default function Footer() {
 						<p>
 							<strong>Address:</strong>
 							<br />
-							40A S Main St, Suite 3<br />
+							2321 N 400 E, Suite 200
+							<br />
 							Tooele, UT 84074
 						</p>
 						<p>
 							<strong>Phone:</strong> (435) 264-7926
 						</p>
 						<p>
-							<strong>Email:</strong> saltflatswellness@gmail.com
+							<strong>Email:</strong> hello@saltflatspsychiatry.com
 						</p>
 					</div>
 
@@ -67,10 +68,15 @@ export default function Footer() {
 					<div className="footer-section footer-social">
 						<h4>Connect With Us</h4>
 						<div className="social-icons">
-							<a href="#" title="Facebook">
+							<a
+								target="_blank"
+								href="https://www.facebook.com/p/Salt-Flats-Wellness-61572598652464/"
+								title="Facebook"
+							>
 								<i className="fab fa-facebook-f"></i>
 							</a>
 							<a
+								target="_blank"
 								href="https://www.instagram.com/saltflatspsychiatry/"
 								title="Instagram"
 							>
@@ -84,9 +90,6 @@ export default function Footer() {
 							</a> */}
 						</div>
 						<div className="footer-buttons">
-							<a href="#" className="footer-btn">
-								Patient Portal
-							</a>
 							<a
 								href="https://spruce.care/saltflatswellness"
 								target="_blank"

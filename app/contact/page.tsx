@@ -169,7 +169,7 @@ export default function Contact() {
 													<dt>
 														<strong>Monday - Friday:</strong>
 													</dt>
-													<dd>9:00 AM - 5:00 PM</dd>
+													<dd>10:00 AM - 5:00 PM</dd>
 
 													<dt>
 														<strong>Saturday & Sunday:</strong>

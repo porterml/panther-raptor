@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
 			allow: "/",
 			disallow: ["/private/", "/admin/"],
 		},
-		sitemap: "https://saltflatswellness.com/sitemap.xml",
+		sitemap: "https://saltflatspsychiatry.com/sitemap.xml",
 	};
 }

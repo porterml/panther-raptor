@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 		title: "Contact Salt Flats Psychiatry | Mental Health Services Tooele, UT",
 		description:
 			"Contact Salt Flats Psychiatry for mental health services in Tooele, Utah. Located at 2321 N 400 E, Suite 200. Call (435) 264-7926 or book online.",
-		url: "https://saltflatswellness.com/contact",
+		url: "https://saltflatspsychiatry.com/contact",
 	},
 };
 
@@ -30,7 +30,7 @@ export default function Contact() {
 		"@type": "MedicalBusiness",
 		name: "Salt Flats Psychiatry",
 		description: "Mental health services and psychiatric care in Tooele, Utah",
-		url: "https://saltflatswellness.com",
+		url: "https://saltflatspsychiatry.com",
 		telephone: "+1-435-264-7926",
 		email: "hello@saltflatspsychiatry.com",
 		address: {

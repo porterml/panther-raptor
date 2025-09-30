@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 			"About Renee Loveless | Psychiatric Nurse Practitioner | Salt Flats Wellness",
 		description:
 			"Meet Renee Loveless, MSN, APRN, PMHNP-BC, a compassionate Psychiatric Nurse Practitioner providing evidence-based mental health care in Tooele Valley, Utah.",
-		url: "https://saltflatswellness.com/about",
+		url: "https://saltflatspsychiatry.com/about",
 		images: [
 			{
 				url: "/assets/img/about.jpg",

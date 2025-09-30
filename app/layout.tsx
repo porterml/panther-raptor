@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 		address: false,
 		telephone: false,
 	},
-	metadataBase: new URL("https://saltflatswellness.com"),
+	metadataBase: new URL("https://saltflatspsychiatry.com"),
 	alternates: {
 		canonical: "/",
 	},
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://saltflatswellness.com",
+		url: "https://saltflatspsychiatry.com",
 		title: "Salt Flats Psychiatry - Mental Health Services | Tooele, UT",
 		description:
 			"Compassionate, patient-centered mental health care in Tooele, Utah. Psychiatric medication management, therapy, and innovative treatments for lasting wellness.",

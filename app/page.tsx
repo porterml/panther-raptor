@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 		title: "Mental Health Services | Psychiatric Care Tooele, UT",
 		description:
 			"Professional mental health services in Tooele, Utah. Psychiatric medication management, individual therapy, family counseling, and innovative treatments.",
-		url: "https://saltflatswellness.com",
+		url: "https://saltflatspsychiatry.com",
 		images: [
 			{
 				url: "/assets/img/intro.jpg",
@@ -42,7 +42,7 @@ export default function Home() {
 		name: "Salt Flats Psychiatry",
 		description:
 			"Compassionate, patient-centered mental health care providing psychiatric medication management, therapy, and innovative treatments.",
-		url: "https://saltflatswellness.com",
+		url: "https://saltflatspsychiatry.com",
 		telephone: "+1-435-264-7926",
 		email: "saltflatswellness@gmail.com",
 		address: {

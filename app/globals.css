@@ -11332,8 +11332,8 @@ p {
 }
 
 .footer-logo img {
-	width: 120px;
-	height: 120px;
+	width: 250px;
+	height: auto;
 	border-radius: 15px;
 	margin-bottom: 1rem;
 }

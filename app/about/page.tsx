@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title:
-		"About Renee Loveless | Psychiatric Nurse Practitioner | Salt Flats Wellness",
+		"About Renee Loveless | Psychiatric Nurse Practitioner | Salt Flats Psychiatry",
 	description:
 		"Meet Renee Loveless, MSN, APRN, PMHNP-BC, a compassionate Psychiatric Nurse Practitioner with 15+ years of ICU experience. Providing virtual & in-person mental health care in Tooele Valley, Utah.",
 	keywords: [
@@ -19,16 +19,76 @@ export const metadata: Metadata = {
 		"Maryville University",
 		"military family mental health",
 		"veteran mental health services",
-		"Salt Flats Wellness",
+		"Salt Flats Psychiatry",
 		"medication management",
 		"virtual telehealth",
 		"anxiety depression treatment",
 		"ADHD evaluation",
 		"PTSD treatment",
+		"psychiatric nurse practitioner Tooele",
+		"mental health professional Utah",
+		"psychiatric care provider Tooele",
+		"mental health specialist Utah",
+		"psychiatric services Tooele",
+		"mental health treatment Utah",
+		"psychiatric evaluation Tooele",
+		"mental health assessment Utah",
+		"psychiatric consultation Tooele",
+		"mental health therapy Utah",
+		"psychiatric treatment Tooele",
+		"mental health counseling Utah",
+		"psychiatric services Utah",
+		"mental health support Tooele",
+		"psychiatric care provider Utah",
+		"mental health specialist Tooele",
+		"psychiatric nurse practitioner Utah",
+		"mental health professional Tooele",
+		"psychiatric therapy Utah",
+		"mental health practitioner Tooele",
+		"psychiatric services Tooele Utah",
+		"mental health treatment Utah",
+		"psychiatric care Tooele Utah",
+		"mental health services Tooele Utah",
+		"psychiatric evaluation Tooele Utah",
+		"mental health assessment Utah",
+		"psychiatric diagnosis Utah",
+		"mental health evaluation Utah",
+		"psychiatric consultation Tooele Utah",
+		"mental health therapy Tooele Utah",
+		"psychiatric treatment Tooele Utah",
+		"mental health counseling Tooele Utah",
+		"psychiatric services Tooele Utah",
+		"mental health support Tooele Utah",
+		"psychiatric care provider Tooele Utah",
+		"mental health specialist Tooele Utah",
+		"psychiatric nurse practitioner Tooele Utah",
+		"mental health professional Tooele Utah",
+		"psychiatric therapy Tooele Utah",
+		"mental health practitioner Tooele Utah",
+		"bipolar disorder treatment",
+		"trauma therapy",
+		"cognitive behavioral therapy",
+		"dialectical behavior therapy",
+		"psychiatric medication",
+		"mental wellness",
+		"psychiatric services",
+		"mental health provider",
+		"psychiatric assessment",
+		"mental health counseling",
+		"psychiatric consultation",
+		"mental health support",
+		"psychiatric treatment",
+		"mental health care",
+		"psychiatric therapy",
+		"mental health professional",
+		"psychiatric nurse",
+		"mental health specialist",
+		"psychiatric care provider",
+		"mental health practitioner",
 	],
 	openGraph: {
 		title:
-			"About Renee Loveless | Psychiatric Nurse Practitioner | Salt Flats Wellness",
+			"About Renee Loveless | Psychiatric Nurse Practitioner | Salt Flats Psychiatry",
 		description:
 			"Meet Renee Loveless, MSN, APRN, PMHNP-BC, a compassionate Psychiatric Nurse Practitioner providing evidence-based mental health care in Tooele Valley, Utah.",
 		url: "https://saltflatspsychiatry.com/about",
@@ -37,7 +97,7 @@ export const metadata: Metadata = {
 				url: "/assets/img/about.jpg",
 				width: 800,
 				height: 600,
-				alt: "Renee Loveless APRN, PMHNP-BC - Psychiatric Nurse Practitioner at Salt Flats Wellness",
+				alt: "Renee Loveless APRN, PMHNP-BC - Psychiatric Nurse Practitioner at Salt Flats Psychiatry",
 			},
 		],
 	},
@@ -58,7 +118,7 @@ export default function About() {
 			"Compassionate Psychiatric Nurse Practitioner providing evidence-based mental health care for adults and teens. Specializing in medication management, anxiety, depression, ADHD, and PTSD treatment.",
 		worksFor: {
 			"@type": "MedicalBusiness",
-			name: "Salt Flats Wellness",
+			name: "Salt Flats Psychiatry",
 			address: {
 				"@type": "PostalAddress",
 				addressLocality: "Tooele Valley",
@@ -118,7 +178,7 @@ export default function About() {
 							className="rounded about-heading-img mb-3 mb-lg-0"
 							height={500}
 							src={aboutImage}
-							alt="Renee Loveless, MSN, APRN, PMHNP-BC - Psychiatric Nurse Practitioner at Salt Flats Wellness"
+							alt="Renee Loveless, MSN, APRN, PMHNP-BC - Psychiatric Nurse Practitioner at Salt Flats Psychiatry"
 							priority
 						/>
 						<div className="about-heading-content">
@@ -134,7 +194,7 @@ export default function About() {
 											</span>
 										</h1>
 										<p className="lead">
-											At Salt Flats Wellness, we provide compassionate,
+											At Salt Flats Psychiatry, we provide compassionate,
 											evidence-based psychiatric care for adults and teens who
 											are ready to feel better and regain balance in their
 											lives.
@@ -150,8 +210,8 @@ export default function About() {
 											support through life transitions.
 										</p>
 										<p>
-											Treatment at Salt Flats Wellness is personalized. I use a
-											holistic approach that may include careful psychiatric
+											Treatment at Salt Flats Psychiatry is personalized. I use
+											a holistic approach that may include careful psychiatric
 											assessment, medication management (including newer options
 											such as GLP-1 medications for weight-related concerns,
 											when appropriate), therapy integration (CBT, DBT,
@@ -249,7 +309,7 @@ export default function About() {
 												</span>
 											</h2>
 											<p>
-												At Salt Flats Wellness, Renee works with adults and
+												At Salt Flats Psychiatry, Renee works with adults and
 												adolescents, providing comprehensive psychiatric
 												evaluations, medication management, and therapy
 												integration. She specializes in treating anxiety,

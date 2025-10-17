@@ -59,20 +59,15 @@ export default function Header() {
 									Contact Us
 								</Link>
 							</li>
-							<li className="">
+							<li className="nav-item">
 								<a
+									className="btn btn-primary btn-xl"
 									href="https://saltflatswellness.intakeq.com/booking"
 									target="_blank"
 									rel="noopener noreferrer"
-									title="Make an Online Appointment"
+									aria-label="Book an appointment with Salt Flats Psychiatry"
 								>
-									<img
-										style={{ height: "45px", width: "162px" }}
-										height="45"
-										width="162"
-										src="https://intakeq.com/images/booknow.png"
-										alt="Book Now"
-									/>
+									Book Now
 								</a>
 							</li>
 						</ul>

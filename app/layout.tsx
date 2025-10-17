@@ -25,6 +25,70 @@ export const metadata: Metadata = {
 		"weight loss treatment",
 		"family counseling",
 		"individual therapy",
+		"psychiatrist Tooele",
+		"mental health clinic Utah",
+		"psychiatric evaluation",
+		"bipolar disorder treatment",
+		"ADHD treatment",
+		"trauma therapy",
+		"cognitive behavioral therapy",
+		"dialectical behavior therapy",
+		"psychiatric medication",
+		"mental wellness",
+		"psychiatric services",
+		"mental health provider",
+		"psychiatric assessment",
+		"mental health counseling",
+		"psychiatric consultation",
+		"mental health support",
+		"psychiatric treatment",
+		"mental health care",
+		"psychiatric therapy",
+		"mental health professional",
+		"psychiatric nurse",
+		"mental health specialist",
+		"psychiatric care provider",
+		"mental health practitioner",
+		"psychiatric services Utah",
+		"mental health treatment Tooele",
+		"psychiatric care Tooele",
+		"mental health services Utah",
+		"psychiatric evaluation Tooele",
+		"mental health assessment",
+		"psychiatric diagnosis",
+		"mental health evaluation",
+		"psychiatric consultation Tooele",
+		"mental health therapy Utah",
+		"psychiatric treatment Utah",
+		"mental health counseling Tooele",
+		"psychiatric services Tooele",
+		"mental health support Utah",
+		"psychiatric care provider Utah",
+		"mental health specialist Tooele",
+		"psychiatric nurse practitioner Utah",
+		"mental health professional Tooele",
+		"psychiatric therapy Utah",
+		"mental health practitioner Tooele",
+		"psychiatric services Tooele Utah",
+		"mental health treatment Utah",
+		"psychiatric care Tooele Utah",
+		"mental health services Tooele Utah",
+		"psychiatric evaluation Tooele Utah",
+		"mental health assessment Utah",
+		"psychiatric diagnosis Utah",
+		"mental health evaluation Utah",
+		"psychiatric consultation Tooele Utah",
+		"mental health therapy Tooele Utah",
+		"psychiatric treatment Tooele Utah",
+		"mental health counseling Tooele Utah",
+		"psychiatric services Tooele Utah",
+		"mental health support Tooele Utah",
+		"psychiatric care provider Tooele Utah",
+		"mental health specialist Tooele Utah",
+		"psychiatric nurse practitioner Tooele Utah",
+		"mental health professional Tooele Utah",
+		"psychiatric therapy Tooele Utah",
+		"mental health practitioner Tooele Utah",
 	],
 	authors: [{ name: "Renee Loveless APRN, PMHNP-BC" }],
 	creator: "Salt Flats Psychiatry",
@@ -88,23 +152,19 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head>
-				<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-				<link
-					rel="apple-touch-icon"
-					sizes="180x180"
-					href="/assets/favicon.ico"
-				/>
+				<link rel="icon" type="image/png" href="/assets/logo.png" />
+				<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.png" />
 				<link
 					rel="icon"
 					type="image/png"
 					sizes="32x32"
-					href="/assets/favicon.ico"
+					href="/assets/logo.png"
 				/>
 				<link
 					rel="icon"
 					type="image/png"
 					sizes="16x16"
-					href="/assets/favicon.ico"
+					href="/assets/logo.png"
 				/>
 				<link rel="manifest" href="/site.webmanifest" />
 				<meta

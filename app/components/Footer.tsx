@@ -9,13 +9,11 @@ export default function Footer() {
 					{/* Logo Section */}
 					<div className="footer-section footer-logo">
 						<Image
-							src="/assets/logo.svg"
+							src="/assets/img/BIGLOGO.png"
 							alt="Salt Flats Psychiatry Logo"
-							width={100}
+							width={600}
 							height={100}
 						/>
-						<h3>Salt Flats Psychiatry</h3>
-						<p>Mental Health Services</p>
 					</div>
 
 					{/* Contact Information */}
@@ -70,7 +68,7 @@ export default function Footer() {
 						<div className="social-icons">
 							<a
 								target="_blank"
-								href="https://www.facebook.com/p/Salt-Flats-Wellness-61572598652464/"
+								href="https://www.facebook.com/p/Salt-Flats-Psychiatry-61572598652464/"
 								title="Facebook"
 							>
 								<i className="fab fa-facebook-f"></i>
@@ -91,7 +89,7 @@ export default function Footer() {
 						</div>
 						<div className="footer-buttons">
 							<a
-								href="https://spruce.care/saltflatswellness"
+								href="https://spruce.care/saltflatspsychiatry"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="footer-btn"

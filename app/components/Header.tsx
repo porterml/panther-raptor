@@ -9,8 +9,20 @@ export default function Header() {
 	return (
 		<>
 			<header>
-				<h1 className="site-heading text-center text-faded d-none d-lg-block">
-					<span className="site-heading-lower">Salt Flats Psychiatry</span>
+				<h1
+					className="site-heading text-center text-faded d-none d-lg-block"
+					style={{ textTransform: "none" }}
+				>
+					<span
+						className="site-heading-lower fw-semibold "
+						style={{
+							fontFamily:
+								"Playlist Script, Dancing Script, Brush Script MT, Lucida Handwriting, cursive",
+							textTransform: "none",
+						}}
+					>
+						Salt Flats Psychiatry
+					</span>
 				</h1>
 			</header>
 

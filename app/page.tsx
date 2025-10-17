@@ -175,21 +175,25 @@ export default function Home() {
 								priority
 							/>
 							<div className="intro-text left-0 text-center bg-faded p-4 rounded">
-								<h1 className="section-heading mb-4">
-									<span className="section-heading-upper">Welcome to</span>
-									<span
-										className="section-heading-lower"
-										style={{ textTransform: "capitalize" }}
-									>
-										Salt Flats Psychiatry
-									</span>
-								</h1>
+								<div className="section-heading mb-4">
+									<Image
+										src="/assets/img/BIGLOGO.png"
+										alt="Salt Flats Psychiatry Logo"
+										width={400}
+										height={120}
+										priority
+										className="img-fluid"
+									/>
+								</div>
 								<p className="mb-3">
-									We are dedicated to providing compassionate, patient-centered
-									mental health care, empowering you to achieve lasting
-									well-being.
+									Specializing in comprehensive treatment for{" "}
+									<strong>ADHD</strong>, <strong>Anxiety</strong>, and{" "}
+									<strong>Depression</strong> with personalized care tailored to
+									your unique needs.
 								</p>
-								<p>Your journey to a healthier, balanced life begins here.</p>
+								<p className="mb-0">
+									Your journey to a healthier, balanced life begins here.
+								</p>
 								<div className="intro-button mx-auto">
 									<a
 										className="btn btn-primary btn-xl"
@@ -216,9 +220,9 @@ export default function Home() {
 										<span className="section-heading-lower">To You</span>
 									</h2>
 									<p className="mb-0">
-										We are dedicated to providing compassionate,
-										patient-centered mental health care, empowering you to
-										achieve lasting well-being. Our mission is threefold:
+										Supporting you through OCD, anxiety, depression, ADHD, and
+										PTSD with understanding, connection, and personalized care .
+										Our mission is threefold:
 									</p>
 									<ol>
 										<li>

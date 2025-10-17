@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import aboutImage from "@/public/assets/img/about.jpg";
+import aboutImage from "@/public/assets/img/About.png";
 import Image from "next/image";
 import type { Metadata } from "next";
 
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
 		url: "https://saltflatspsychiatry.com/about",
 		images: [
 			{
-				url: "/assets/img/about.jpg",
+				url: "/assets/img/About.png",
 				width: 800,
 				height: 600,
 				alt: "Renee Loveless APRN, PMHNP-BC - Psychiatric Nurse Practitioner at Salt Flats Psychiatry",

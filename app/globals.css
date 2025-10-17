@@ -1,4 +1,15 @@
 @charset "UTF-8";
+
+/* Playlist Script Font */
+@font-face {
+	font-family: "Playlist Script";
+	src: url("/fonts/playlist-script.woff2") format("woff2"),
+		url("/fonts/playlist-script.woff") format("woff"),
+		url("/fonts/playlist-script.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 /*!
 * Start Bootstrap - Business Casual v7.0.9 (https://startbootstrap.com/theme/business-casual)
 * Copyright 2013-2023 Start Bootstrap

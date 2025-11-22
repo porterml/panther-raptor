@@ -112,18 +112,17 @@ export default function Insurance() {
 												<p>
 													While we accept many insurance plans, coverage can
 													vary based on your specific plan and benefits. We
-													recommend contacting your insurance provider or our
-													office to verify your coverage before your first
-													appointment.
+													recommend contacting your insurance provider to verify
+													your coverage before your first appointment.
 												</p>
 											</div>
 											<div className="col-md-6">
 												<h3>Self-Pay Options</h3>
 												<p>
-													If your insurance is not accepted or you prefer to
-													pay out-of-pocket, we offer competitive self-pay
-													rates. Please contact us to discuss payment options
-													and any available discounts.
+													If your insurance is not accepted or you prefer to pay
+													out-of-pocket, we offer competitive self-pay rates.
+													Please contact us to discuss payment options and any
+													available discounts.
 												</p>
 											</div>
 										</div>
@@ -132,9 +131,9 @@ export default function Insurance() {
 											<h3>Questions About Coverage?</h3>
 											<p>
 												If you have questions about your insurance coverage or
-												need help verifying your benefits, please don't
-												hesitate to contact us. Our team is here to help you
-												navigate the insurance process.
+												need help verifying your benefits, please don't hesitate
+												to contact us. Our team is here to help you navigate the
+												insurance process.
 											</p>
 											<a
 												className="btn btn-primary btn-xl"
@@ -156,5 +155,3 @@ export default function Insurance() {
 		</>
 	);
 }
-
-

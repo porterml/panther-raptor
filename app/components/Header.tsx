@@ -67,6 +67,11 @@ export default function Header() {
 								</Link>
 							</li>
 							<li className="nav-item px-lg-4">
+								<Link className="nav-link text-uppercase" href="/insurance">
+									Insurance
+								</Link>
+							</li>
+							<li className="nav-item px-lg-4">
 								<Link className="nav-link text-uppercase" href="/contact">
 									Contact Us
 								</Link>

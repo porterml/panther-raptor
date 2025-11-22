@@ -29,6 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			changeFrequency: "monthly",
 			priority: 0.8,
 		},
+		{
+			url: `${baseUrl}/insurance`,
+			lastModified: currentDate,
+			changeFrequency: "monthly",
+			priority: 0.8,
+		},
 		// Additional SEO-optimized pages for better Google visibility
 		{
 			url: `${baseUrl}/mental-health-services`,

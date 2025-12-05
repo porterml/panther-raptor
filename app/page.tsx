@@ -245,7 +245,15 @@ export default function Home() {
 											for all.
 										</li>
 									</ol>
-									<p>Your journey to a healthier, balanced life begins here.</p>
+									<p>
+										As a provider-owned practice, Salt Flats Psychiatry was
+										built with one goal in mind: to offer meaningful,
+										individualized care that supports individuals through the
+										transitions, stressors, and complexities of life. You’ll
+										find a thoughtful blend of therapeutic guidance, medication
+										support, and genuine connection. Thank you for being
+										here—your well-being is at the heart of everything we do.
+									</p>
 								</div>
 							</div>
 						</div>

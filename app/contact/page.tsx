@@ -189,7 +189,7 @@ export default function Contact() {
 														</a>
 													</p>
 													<p>
-														<strong>Phone:</strong>{" "}
+														<strong>Phone or Text:</strong>{" "}
 														<a
 															href="tel:+1-435-264-7926"
 															aria-label="Call Salt Flats Psychiatry at (435) 264-7926"
@@ -252,7 +252,7 @@ export default function Contact() {
 													<dt>
 														<strong>Monday - Friday:</strong>
 													</dt>
-													<dd>10:00 AM - 5:00 PM</dd>
+													<dd>9:00 AM - 5:00 PM By Appointment Only</dd>
 
 													<dt>
 														<strong>Saturday & Sunday:</strong>

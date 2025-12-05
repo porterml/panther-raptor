@@ -168,14 +168,15 @@ export default function Home() {
 						<div className="intro">
 							<Image
 								className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-								src="/assets/img/intro.jpg"
+								src="/assets/img/SaltFlatsPsych-50.jpg"
+								// src="/assets/img/SaltFlatsPsych-55.jpg"
 								alt="Salt Flats Psychiatry Introduction - Mental Health Services in Tooele, Utah"
 								width={600}
 								height={400}
 								priority
 							/>
 							<div className="intro-text left-0 text-center bg-faded p-4 rounded">
-								<div className="section-heading mb-4">
+								<div className="section-heading">
 									<Image
 										src="/assets/img/BIGLOGO.png"
 										alt="Salt Flats Psychiatry Logo"
@@ -185,13 +186,14 @@ export default function Home() {
 										className="img-fluid"
 									/>
 								</div>
-								<p className="mb-3">
+								<p className="mb-3 fs-5">
 									Specializing in comprehensive treatment for{" "}
-									<strong>ADHD</strong>, <strong>Anxiety</strong>, and{" "}
+									<strong>ADHD</strong>, <strong>OCD</strong>,{" "}
+									<strong>PTSD</strong>, <strong>Anxiety</strong>, and{" "}
 									<strong>Depression</strong> with personalized care tailored to
 									your unique needs.
 								</p>
-								<p className="mb-0">
+								<p className="mb-0 fs-5">
 									Your journey to a healthier, balanced life begins here.
 								</p>
 								<div className="intro-button mx-auto">

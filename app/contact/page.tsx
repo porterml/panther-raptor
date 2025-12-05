@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -152,11 +153,11 @@ export default function Contact() {
 			<Header />
 
 			<main>
-				<section className="page-section cta">
+				<section className="page-section ct">
 					<div className="container">
 						<div className="row">
 							<div className="col-xl-9 mx-auto">
-								<div className="cta-inner bg-faded rounded">
+								<div className="ct-inner bg-faded rounded">
 									<h1 className="section-heading mb-4">
 										<span className="section-heading-lower">Contact Us</span>
 									</h1>
@@ -208,7 +209,7 @@ export default function Contact() {
 												</address>
 											</div>
 
-											<div className="appointment-booking mt-4">
+											<div className="appointment-booking mt-4 mb-4">
 												<h3>Book an Appointment</h3>
 												<p>
 													Ready to take the first step? Book your appointment
@@ -224,9 +225,27 @@ export default function Contact() {
 													Book Appointment
 												</a>
 											</div>
+											<div className="mb-4">
+												<Image
+													src="/assets/img/SaltFlatsPsych-3.jpg"
+													alt="Salt Flats Psychiatry -  Office Door"
+													width={600}
+													height={400}
+													className="img-fluid rounded"
+												/>
+											</div>
 										</div>
 
 										<div className="col-lg-6">
+											<div className="mb-4">
+												<Image
+													src="/assets/img/LetThem.jpg"
+													alt="Let them - Decorative still life"
+													width={600}
+													height={400}
+													className="img-fluid rounded"
+												/>
+											</div>
 											<h2>Office Hours</h2>
 											<div className="office-hours">
 												<dl>

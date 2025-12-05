@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import aboutImage from "@/public/assets/img/About.png";
+import aboutImage2 from "@/public/assets/img/SaltFlatsPsych-55.jpg";
 import Image from "next/image";
 import type { Metadata } from "next";
 
@@ -177,7 +178,7 @@ export default function About() {
 						<Image
 							className="rounded about-heading-img mb-3 mb-lg-0"
 							height={500}
-							src={aboutImage}
+							src={aboutImage2}
 							alt="Renee Loveless, MSN, APRN, PMHNP-BC - Psychiatric Nurse Practitioner at Salt Flats Psychiatry"
 							priority
 						/>

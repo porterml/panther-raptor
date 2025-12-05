@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Playlist Script Font */
-@font-face {
+/* @font-face {
 	font-family: "Playlist Script";
 	src: url("/fonts/playlist-script.woff2") format("woff2"),
 		url("/fonts/playlist-script.woff") format("woff"),
@@ -9,7 +9,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-}
+} */
 /*!
 * Start Bootstrap - Business Casual v7.0.9 (https://startbootstrap.com/theme/business-casual)
 * Copyright 2013-2023 Start Bootstrap
@@ -11184,7 +11184,7 @@ body {
 			rgba(47, 23, 15, 0.25),
 			rgba(47, 23, 15, 0.25)
 		),
-		url("../assets/img/bg.jpg");
+		url("/assets/img/CouchMain.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -11293,6 +11293,29 @@ p {
 		position: relative;
 		z-index: 1;
 	}
+}
+
+.ct {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	/* background-color: rgba(230, 167, 86, 0.9); */
+	/* background-image: url("../assets/img/OLD.jpg"); */
+}
+.ct .ct-inner {
+	position: relative;
+	padding: 3rem;
+	margin: 0.5rem;
+}
+.ct .ct-inner:before {
+	border-radius: 0.5rem;
+	content: "";
+	position: absolute;
+	top: -0.5rem;
+	bottom: -0.5rem;
+	left: -0.5rem;
+	right: -0.5rem;
+	border: 0.25rem solid rgba(255, 255, 255, 0.85);
+	z-index: -1;
 }
 
 .cta {

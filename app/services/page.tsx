@@ -2,8 +2,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import products01 from "../../assets/img/products-01.jpg";
-import products02 from "../../assets/img/products-02.jpg";
 import products03 from "../../assets/img/products-03.jpg";
+import products02 from "../../assets/img/SaltFlatsPsych-36.jpg";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

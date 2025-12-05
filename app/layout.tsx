@@ -152,19 +152,23 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head>
-				<link rel="icon" type="image/png" href="/assets/logo.png" />
-				<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.png" />
+				<link rel="icon" type="image/png" href="/assets/img/BIGLOGO.png" />
+				<link
+					rel="apple-touch-icon"
+					sizes="180x180"
+					href="/assets/img/BIGLOGO.png"
+				/>
 				<link
 					rel="icon"
 					type="image/png"
 					sizes="32x32"
-					href="/assets/logo.png"
+					href="/assets/img/BIGLOGO.png"
 				/>
 				<link
 					rel="icon"
 					type="image/png"
 					sizes="16x16"
-					href="/assets/logo.png"
+					href="/assets/img/BIGLOGO.png"
 				/>
 				<link rel="manifest" href="/site.webmanifest" />
 				<meta

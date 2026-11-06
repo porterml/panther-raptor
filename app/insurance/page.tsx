@@ -35,6 +35,9 @@ export const metadata: Metadata = {
 		"therapy insurance Tooele Utah",
 		"insurance coverage Tooele Utah",
 	],
+	alternates: {
+		canonical: "/insurance",
+	},
 	openGraph: {
 		title: "Accepted Insurance Plans | Salt Flats Psychiatry Tooele, UT",
 		description:

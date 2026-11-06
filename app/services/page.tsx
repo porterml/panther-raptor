@@ -117,6 +117,9 @@ export const metadata: Metadata = {
 		"psychiatric therapy Utah",
 		"mental health practitioner Tooele",
 	],
+	alternates: {
+		canonical: "/services",
+	},
 	openGraph: {
 		title:
 			"Mental Health Services & Treatments | Salt Flats Psychiatry Tooele, UT",

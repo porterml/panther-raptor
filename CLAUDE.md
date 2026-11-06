@@ -10,7 +10,7 @@ custom stylesheet. No backend, database, API routes or tests. Production URL:
 - `npm install` — install dependencies
 - `npm run dev` — dev server at http://localhost:3000
 - `npm run build` / `npm start` — production build / serve
-- `npm run lint` — ESLint (`eslint-config-next`)
+- `npm run lint` — ESLint; no config is committed yet, so it stops at an interactive setup prompt
 - `./deploy.sh` — just runs install + build and prints deploy hints (intended host: Vercel)
 
 ## Layout
@@ -36,8 +36,9 @@ app/
 public/
   assets/img/             Images actually served (referenced as /assets/img/...)
   assets/logo.svg, favicon.ico, site.webmanifest
-assets/                   Legacy copy of images from the pre-Next.js static site — NOT
-                          served; public/assets is the live copy
+assets/                   Legacy copy of images from the pre-Next.js static site. Mostly
+                          unused, BUT services/page.tsx imports 3 images from here
+                          (products-01/03.jpg, SaltFlatsPsych-36.jpg) — don't delete blindly
 next.config.js            Image config (allows intakeq.com remote images, webp/avif),
                           security headers, 1-year cache on /assets/*, optimizeCss (critters)
 Documentation/Improvements.md  Checklist of planned site improvements (mostly not started)
@@ -47,13 +48,15 @@ MIGRATION_SUMMARY.md      Notes on the HTML -> Next.js migration
 ## Conventions
 
 - Each page is a server component exporting `metadata` (title/description/keywords/
-  OpenGraph) and embedding a schema.org JSON-LD `<script type="application/ld+json">`.
+  OpenGraph, plus its own `alternates.canonical`) and embedding a schema.org JSON-LD `<script type="application/ld+json">`.
 - Interactive pieces are isolated in `"use client"` components under `app/components/`.
 - Styling uses Bootstrap utility classes plus classes from `globals.css`; no CSS modules
   or Tailwind.
 - Indentation: tabs. Path alias `@/*` maps to the repo root.
 - Business details (phone, address, hours) are duplicated across pages, footer and JSON-LD —
-  update all of them together when they change.
+  update all of them together when they change. Current: 2321 N 400 E, Suite 200,
+  Tooele, UT 84074; (435) 264-7926; Mon–Fri 9–5 by appointment, closed weekends.
+- New routes must also be added to `app/sitemap.ts`.
 
 ## External services
 
@@ -63,9 +66,6 @@ MIGRATION_SUMMARY.md      Notes on the HTML -> Next.js migration
 
 ## Known quirks
 
-- `app/sitemap.ts` lists ~68 URLs, but only 5 routes exist (`/`, `/about`, `/services`,
-  `/insurance`, `/contact`). The other ~63 keyword URLs (e.g. `/adhd-treatment`,
-  `/psychiatrist-tooele`) return 404.
 - Bootstrap is loaded twice: CSS from the npm package and again inside `globals.css`;
   the JS bundle comes from a CDN rather than npm.
 - `assets/` duplicates `public/assets/` and contains a few images not in `public/`

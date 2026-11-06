@@ -99,9 +99,6 @@ export const metadata: Metadata = {
 		telephone: false,
 	},
 	metadataBase: new URL("https://saltflatspsychiatry.com"),
-	alternates: {
-		canonical: "/",
-	},
 	robots: {
 		index: true,
 		follow: true,
@@ -136,9 +133,6 @@ export const metadata: Metadata = {
 		description:
 			"Compassionate, patient-centered mental health care in Tooele, Utah.",
 		images: ["/assets/img/intro.jpg"],
-	},
-	verification: {
-		google: "your-google-verification-code", // Add your Google Search Console verification code
 	},
 	category: "healthcare",
 	classification: "mental health services",

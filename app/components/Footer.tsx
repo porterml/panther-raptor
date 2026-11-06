@@ -102,7 +102,10 @@ export default function Footer() {
 
 				{/* Copyright */}
 				<div className="footer-copyright">
-					<p>&copy; 2025 by Salt Flats Psychiatry. All rights reserved.</p>
+					<p>
+						&copy; {new Date().getFullYear()} by Salt Flats Psychiatry. All
+						rights reserved.
+					</p>
 				</div>
 			</div>
 		</footer>

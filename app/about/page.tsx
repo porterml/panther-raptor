@@ -87,6 +87,9 @@ export const metadata: Metadata = {
 		"psychiatric care provider",
 		"mental health practitioner",
 	],
+	alternates: {
+		canonical: "/about",
+	},
 	openGraph: {
 		title:
 			"About Renee Loveless | Psychiatric Nurse Practitioner | Salt Flats Psychiatry",

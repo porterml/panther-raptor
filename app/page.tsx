@@ -83,6 +83,9 @@ export const metadata: Metadata = {
 		"psychiatric therapy Tooele Utah",
 		"mental health practitioner Tooele Utah",
 	],
+	alternates: {
+		canonical: "/",
+	},
 	openGraph: {
 		title: "Mental Health Services | Psychiatric Care Tooele, UT",
 		description:
@@ -111,16 +114,11 @@ export default function Home() {
 		email: "hello@saltflatspsychiatry.com",
 		address: {
 			"@type": "PostalAddress",
-			streetAddress: "40A S Main St, Suite 3",
+			streetAddress: "2321 N 400 E, Suite 200",
 			addressLocality: "Tooele",
 			addressRegion: "UT",
 			postalCode: "84074",
 			addressCountry: "US",
-		},
-		geo: {
-			"@type": "GeoCoordinates",
-			latitude: "40.5302",
-			longitude: "-112.2983",
 		},
 		openingHours: "Mo-Fr 09:00-17:00",
 		medicalSpecialty: "Psychiatry",

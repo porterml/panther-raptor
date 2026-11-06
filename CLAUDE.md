@@ -48,13 +48,15 @@ MIGRATION_SUMMARY.md      Notes on the HTML -> Next.js migration
 ## Conventions
 
 - Each page is a server component exporting `metadata` (title/description/keywords/
-  OpenGraph) and embedding a schema.org JSON-LD `<script type="application/ld+json">`.
+  OpenGraph, plus its own `alternates.canonical`) and embedding a schema.org JSON-LD `<script type="application/ld+json">`.
 - Interactive pieces are isolated in `"use client"` components under `app/components/`.
 - Styling uses Bootstrap utility classes plus classes from `globals.css`; no CSS modules
   or Tailwind.
 - Indentation: tabs. Path alias `@/*` maps to the repo root.
 - Business details (phone, address, hours) are duplicated across pages, footer and JSON-LD —
-  update all of them together when they change.
+  update all of them together when they change. Current: 2321 N 400 E, Suite 200,
+  Tooele, UT 84074; (435) 264-7926; Mon–Fri 9–5 by appointment, closed weekends.
+- New routes must also be added to `app/sitemap.ts`.
 
 ## External services
 
@@ -64,13 +66,8 @@ MIGRATION_SUMMARY.md      Notes on the HTML -> Next.js migration
 
 ## Known quirks
 
-- `app/sitemap.ts` lists ~68 URLs, but only 5 routes exist (`/`, `/about`, `/services`,
-  `/insurance`, `/contact`). The other ~63 keyword URLs (e.g. `/adhd-treatment`,
-  `/psychiatrist-tooele`) return 404.
 - Bootstrap is loaded twice: CSS from the npm package and again inside `globals.css`;
   the JS bundle comes from a CDN rather than npm.
 - `assets/` duplicates `public/assets/` and contains a few images not in `public/`
   (`SaltFlatsPsych-81/103/142.jpg`) plus `.DS_Store` files.
-- The root layout sets `alternates.canonical: "/"`, so every page declares the homepage
-  as its canonical URL.
 - README still refers to `cd salt-flats-wellness` (old name).

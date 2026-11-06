@@ -81,6 +81,9 @@ export const metadata: Metadata = {
 		"psychiatric therapy Tooele Utah",
 		"mental health practitioner Tooele Utah",
 	],
+	alternates: {
+		canonical: "/contact",
+	},
 	openGraph: {
 		title: "Contact Salt Flats Psychiatry | Mental Health Services Tooele, UT",
 		description:
@@ -106,22 +109,11 @@ export default function Contact() {
 			postalCode: "84074",
 			addressCountry: "US",
 		},
-		geo: {
-			"@type": "GeoCoordinates",
-			latitude: "40.5302",
-			longitude: "-112.2983",
-		},
-		openingHours: ["Mo-Fr 09:00-17:00", "Sa 09:00-17:00"],
+		openingHours: "Mo-Fr 09:00-17:00",
 		openingHoursSpecification: [
 			{
 				"@type": "OpeningHoursSpecification",
 				dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-				opens: "09:00",
-				closes: "17:00",
-			},
-			{
-				"@type": "OpeningHoursSpecification",
-				dayOfWeek: "Saturday",
 				opens: "09:00",
 				closes: "17:00",
 			},
@@ -270,11 +262,11 @@ export default function Contact() {
 												<ul>
 													<li>
 														<strong>
-															National Suicide Prevention Lifeline:
+															988 Suicide &amp; Crisis Lifeline (call or text):
 														</strong>{" "}
 														<a
 															href="tel:988"
-															aria-label="Call National Suicide Prevention Lifeline at 988"
+															aria-label="Call or text the 988 Suicide and Crisis Lifeline"
 														>
 															988
 														</a>

@@ -19,6 +19,15 @@ const nextConfig = {
 	experimental: {
 		optimizeCss: true,
 	},
+	async redirects() {
+		return [
+			{
+				source: "/about",
+				destination: "/providers",
+				permanent: true,
+			},
+		];
+	},
 	async headers() {
 		return [
 			{

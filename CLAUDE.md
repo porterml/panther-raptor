@@ -21,7 +21,7 @@ app/
                           OpenGraph), Inter font, Bootstrap CSS import, Font Awesome +
                           Google Fonts <link>s, Bootstrap JS bundle from jsDelivr CDN
   page.tsx                /           Home (intro, mission) + JSON-LD
-  about/page.tsx          /about      Clinic + provider bio + JSON-LD
+  providers/page.tsx      /providers  Provider bios (Renee, Emma) + JSON-LD; /about 301s here
   services/page.tsx       /services   Service list + JSON-LD
   insurance/page.tsx      /insurance  Wraps <InsuranceChecker/> + JSON-LD
   contact/page.tsx        /contact    Contact details, hours, map link + JSON-LD

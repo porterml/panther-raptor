@@ -10,7 +10,7 @@ custom stylesheet. No backend, database, API routes or tests. Production URL:
 - `npm install` — install dependencies
 - `npm run dev` — dev server at http://localhost:3000
 - `npm run build` / `npm start` — production build / serve
-- `npm run lint` — ESLint (`eslint-config-next`)
+- `npm run lint` — ESLint; no config is committed yet, so it stops at an interactive setup prompt
 - `./deploy.sh` — just runs install + build and prints deploy hints (intended host: Vercel)
 
 ## Layout
@@ -36,8 +36,9 @@ app/
 public/
   assets/img/             Images actually served (referenced as /assets/img/...)
   assets/logo.svg, favicon.ico, site.webmanifest
-assets/                   Legacy copy of images from the pre-Next.js static site — NOT
-                          served; public/assets is the live copy
+assets/                   Legacy copy of images from the pre-Next.js static site. Mostly
+                          unused, BUT services/page.tsx imports 3 images from here
+                          (products-01/03.jpg, SaltFlatsPsych-36.jpg) — don't delete blindly
 next.config.js            Image config (allows intakeq.com remote images, webp/avif),
                           security headers, 1-year cache on /assets/*, optimizeCss (critters)
 Documentation/Improvements.md  Checklist of planned site improvements (mostly not started)
@@ -70,4 +71,6 @@ MIGRATION_SUMMARY.md      Notes on the HTML -> Next.js migration
   the JS bundle comes from a CDN rather than npm.
 - `assets/` duplicates `public/assets/` and contains a few images not in `public/`
   (`SaltFlatsPsych-81/103/142.jpg`) plus `.DS_Store` files.
+- The root layout sets `alternates.canonical: "/"`, so every page declares the homepage
+  as its canonical URL.
 - README still refers to `cd salt-flats-wellness` (old name).

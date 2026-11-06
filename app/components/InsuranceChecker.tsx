@@ -14,6 +14,7 @@ const ACCEPTED_INSURANCES = [
 	"FEP",
 	"Humana",
 	"Magellan",
+	"Medicaid - Tooele Optum",
 	"Medicare",
 	"Molina",
 	"Motiv Health",
@@ -31,6 +32,7 @@ const ACCEPTED_INSURANCES = [
 	"United Medical Resources",
 	"United Medical Resources (UMR)",
 	"University of Utah Health Plans",
+	"Veterans Administration",
 ];
 
 export default function InsuranceChecker() {

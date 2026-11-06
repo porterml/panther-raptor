@@ -34,6 +34,9 @@ export const metadata: Metadata = {
 		"psychiatric care insurance Tooele Utah",
 		"therapy insurance Tooele Utah",
 		"insurance coverage Tooele Utah",
+		"Medicaid Tooele",
+		"Optum Medicaid Tooele",
+		"Veterans Administration mental health Tooele",
 	],
 	alternates: {
 		canonical: "/insurance",
@@ -60,6 +63,8 @@ export default function Insurance() {
 			"Aetna",
 			"Cigna",
 			"UnitedHealthcare",
+			"Medicaid - Tooele Optum",
+			"Veterans Administration",
 			"Self-Pay",
 		],
 	};

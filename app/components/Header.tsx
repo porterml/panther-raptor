@@ -57,8 +57,8 @@ export default function Header() {
 								</Link>
 							</li>
 							<li className="nav-item px-lg-4">
-								<Link className="nav-link text-uppercase" href="/about">
-									About
+								<Link className="nav-link text-uppercase" href="/providers">
+									Providers
 								</Link>
 							</li>
 							<li className="nav-item px-lg-4">

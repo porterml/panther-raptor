@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import products01 from "../../assets/img/products-01.jpg";
+import medicationImg from "../../public/assets/img/medication-management.jpg";
 import products03 from "../../assets/img/products-03.jpg";
 import products02 from "../../assets/img/SaltFlatsPsych-36.jpg";
 import type { Metadata } from "next";
@@ -128,10 +128,10 @@ export const metadata: Metadata = {
 		url: "https://saltflatspsychiatry.com/services",
 		images: [
 			{
-				url: "/assets/img/products-01.jpg",
-				width: 800,
-				height: 600,
-				alt: "Psychiatric Medication Management Services",
+				url: "/assets/img/medication-management.jpg",
+				width: 1800,
+				height: 1285,
+				alt: "Renee reviewing medication notes with a patient at Salt Flats Psychiatry",
 			},
 		],
 	},
@@ -233,10 +233,10 @@ export default function Services() {
 							</div>
 							<Image
 								className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-								src={products01}
-								alt="Psychiatric Medication Management Services - Salt Flats Psychiatry"
-								width={600}
-								height={400}
+								src={medicationImg}
+								alt="Renee, in a white coat, taking notes on an iPad while talking with a patient - Salt Flats Psychiatry"
+								width={720}
+								height={514}
 							/>
 							<div className="product-item-description d-flex me-auto">
 								<div className="bg-faded p-5 rounded">

@@ -33,8 +33,10 @@ app/
   globals.css             ~11.6k lines: Start Bootstrap "Business Casual" theme with
                           bundled Bootstrap 5.2.3 + site overrides
   robots.ts / sitemap.ts  Generated robots.txt and sitemap.xml
+  favicon.ico             App Router favicon
 public/
   assets/img/             Images actually served (referenced as /assets/img/...)
+  assets/img/providers/   Provider headshots (emma-west.jpg)
   assets/logo.svg, favicon.ico, site.webmanifest
 assets/                   Legacy copy of images from the pre-Next.js static site. Mostly
                           unused, BUT services/page.tsx imports 3 images from here
@@ -43,6 +45,7 @@ next.config.js            Image config (allows intakeq.com remote images, webp/a
                           security headers, 1-year cache on /assets/*, optimizeCss (critters)
 Documentation/Improvements.md  Checklist of planned site improvements (mostly not started)
 MIGRATION_SUMMARY.md      Notes on the HTML -> Next.js migration
+.claude/launch.json       Preview config "next-dev" (npm run dev, port 3000); untracked
 ```
 
 ## Conventions
